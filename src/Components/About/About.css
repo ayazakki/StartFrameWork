@@ -1,0 +1,14 @@
+.about{
+  background-color: #1abc9c;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lines::after{
+  background-color: white;
+}
+.lines::before{
+  background-color: white;
+}
