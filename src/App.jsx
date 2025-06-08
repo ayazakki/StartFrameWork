@@ -11,7 +11,7 @@ import NotFoundPage from './Components/NotFoundPage/NotFoundPage'
 import Layout from './Components/Layout/Layout'
 
 function App() {
-  let router=createBrowserRouter([
+  const router=createBrowserRouter([
     {path:"",element:<Layout/>,children:[
       {index:true,element:<Home/>},
       {path:"portfolio",element:<Portfolio/>},
@@ -24,12 +24,6 @@ function App() {
   return (
     <>
       <RouterProvider router={router}/>
-      {/* <Navbar/> */}
-      {/* <Contact/> */}
-      {/* <Home/> */}
-      {/* <Portfolio/> */}
-      {/* <About/> */}
-      {/* <Footer/> */}
     </>
   )
 }
